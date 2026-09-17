@@ -45,7 +45,9 @@ A comprehensive MATLAB-based **Hardware-in-the-Loop (HIL)** simulation and real-
 
 
 
+
 ⚙️ Installation & Prerequisites
+
 Requirements: MATLAB (R2021a or newer recommended) with the following toolboxes:
 
 Statistics and Machine Learning Toolbox (for fitcensemble, predict, and bagged decision trees)
@@ -54,28 +56,42 @@ MATLAB App Designer (for UI execution)
 
 Clone the Repository:
 
-git clone [https://github.com/diametrically/Real-Time-Power-System-Fault-Detection-Classification.git](https://github.com/your-username/Real-Time-Power-System-Fault-Detection-Classification.git)
-cd Real-Time-Power-System-Fault-Detection-Classification
+    git clone [https://github.com/diametrically/Real-Time-Power-System-Fault-Detection-Classification.git](https://github.com/your-username/Real-Time-Power-System-Fault-Detection-Classification.git)
+
+    cd Real-Time-Power-System-Fault-Detection-Classification
+
+
 
 🎮 How to Run
+
 Step 1: Launch the Real-Time Classifier Dashboard
+
 Open MATLAB, navigate to the repository folder, and launch the monitoring application:
 
+
               LiveFaultClassifierApp.m
+              
 
 Step 2: Launch the Virtual HIL Transmitter
+
 Open a second window or command line instance and run the transmitter:
 
+
               virtual_hil_tx.m
+              
 
 Step 3: Simulate Faults
+
+
 In the Virtual HIL Transmitter window, click START TRANSMISSION.
 
 Click through the various fault buttons (Inject LG Fault, Inject LL Fault, etc.) to observe real-time classification, probability shifts, and alarm banner activations on the Classifier Dashboard.
 
 Click STOP TRANSMISSION to automatically export your session data into hil_logged_dataset.mat.
 
+
 🔄 Retraining the Model Offline
+
 To retrain the machine learning model using your custom recorded simulation data:
 
 Record a dataset using the transmitter app and stop transmission to save hil_logged_Dataset.mat.
@@ -95,7 +111,8 @@ Restart LiveFaultClassifierApp to automatically load your newly optimized traine
 Distributed under the MIT License. See LICENSE for more information.
 
 👤 Author
-    Roy-  https://github.com/Diametrically/
+
+ Roy-  https://github.com/Diametrically/
 
 
 

@@ -1,0 +1,21 @@
+# MATLAB generated files and folders
+*.asv
+slprj/
+codegen/
+*.mex*
+
+# Runtime data logs (ignore large local simulation recordings, keep pre-trained model)
+hil_logged_dataset.mat
+
+# Operating System specific hidden files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/

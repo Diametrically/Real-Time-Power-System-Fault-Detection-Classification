@@ -23,7 +23,7 @@ A comprehensive MATLAB-based **Hardware-in-the-Loop (HIL)** simulation and real-
 
 ## 🛠️ System Architecture
 
-```text
+
 [ Virtual HIL Transmitter ] ──(Shared Workspace)──> [ Live Fault Classifier App ]
          │                                                      │
          ├─► Generates 3-Phase Waveforms                        ├─► Sliding Window ($0.2\text{ s}$)
@@ -35,7 +35,7 @@ A comprehensive MATLAB-based **Hardware-in-the-Loop (HIL)** simulation and real-
 
 
 
-📂 Repository Structure
+## 📂 Repository Structure
 
 ├── virtual_hil_tx.m             # HIL Transmitter GUI & Data Logging App
 ├── LiveFaultClassifierApp.m     # Real-Time Monitoring & ML Inference Dashboard

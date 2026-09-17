@@ -22,7 +22,7 @@ A comprehensive MATLAB-based **Hardware-in-the-Loop (HIL)** simulation and real-
 ---
 
 ## 🛠️ System Architecture
-
+```text 
 
 [ Virtual HIL Transmitter ] ──(Shared Workspace)──> [ Live Fault Classifier App ]
          │                                                      │
@@ -33,7 +33,7 @@ A comprehensive MATLAB-based **Hardware-in-the-Loop (HIL)** simulation and real-
                                                                         │
 [ Offline Training Script ] <─── Retrains Model ────────────────────────┘
 
-
+```
 
 ## 📂 Repository Structure
 
